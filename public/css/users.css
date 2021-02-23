@@ -1,0 +1,63 @@
+.encabezado {
+  text-transform: uppercase;
+  text-align-last: center;
+  margin-bottom: 500px;
+}
+
+.box {
+  width: 400px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(32, 31, 31);
+  text-align: center;
+  margin-top: 150px;
+}
+
+.box h2 {
+  color: blanchedalmond;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.box input[type="email"],
+.box input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid chartreuse;
+  width: 200px;
+  outline: none;
+  color: azure;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type="email"]:focus,
+.box input[type="password"]:focus {
+  width: 300px;
+  border-color: cyan;
+}
+
+.box input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid cyan;
+  padding: 14px 40px;
+  outline: none;
+  color: azure;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+  background-color: cyan;
+}

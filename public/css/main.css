@@ -1,0 +1,155 @@
+body {
+  background-color: rgba(31, 28, 28, 0.788);
+  margin: 0;
+  padding: 0;
+}
+
+/* nav bar */
+div.logo {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+div.logo img {
+  height: 50px;
+  width: 50px;
+  z-index: 999;
+}
+
+nav {
+  display: block;
+  background-color: rgb(39, 37, 37);
+  height: 70px;
+  padding-top: 10px;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 100%;
+  z-index: 999;
+}
+
+nav ul li a.titulo {
+  margin-left: 0px;
+}
+
+div.logo {
+  z-index: 5;
+}
+
+nav ul {
+  margin-left: 20%;
+}
+
+nav ul li.nav-item {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+}
+
+nav ul li.nav-item a {
+  color: rgb(136, 135, 133);
+}
+
+nav ul li.nav-item:hover {
+  background-color: rgba(66, 68, 70, 0.582);
+  border-radius: 10px;
+}
+
+nav ul li.nav-item a:hover {
+  color: antiquewhite;
+}
+
+/* footer  */
+footer {
+  min-height: 90px;
+  background-color: rgb(39, 37, 37);
+  color: bisque;
+  padding: 60px;
+}
+
+footer article div {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* index home */
+/* Carrusell */
+div.carousel {
+  background-color: rgb(66, 68, 68);
+}
+
+div.carousel-item img {
+  max-width: 900px;
+  min-height: 500px;
+  max-height: 500px;
+  margin-left: 16%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Presentacion */
+body.index {
+  background-image: url("/images/melqui.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+article.index {
+  height: max-content;
+  color: blanchedalmond;
+  background-color: rgba(245, 147, 102, 0.918);
+  margin-top: 80px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 100px;
+  padding: 1em;
+  align-content: center;
+}
+
+article.index figure img {
+  height: 150px;
+  width: auto;
+  border-radius: 10px;
+  float: right;
+  margin-left: 20px;
+}
+
+article.index p {
+  text-size-adjust: 2px;
+}
+
+article.pageIn {
+  background-color: rgb(133, 209, 196);
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+article.pageIn section {
+  display: inline-block;
+  align-content: flex-start;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+}
+
+div.button a {
+  padding: 5px;
+  color: rgb(97, 4, 89);
+  background-color: rgb(218, 226, 228);
+  margin-left: 20px;
+  margin-right: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+div.button a:hover {
+  color: aliceblue;
+  background-color: transparent;
+}

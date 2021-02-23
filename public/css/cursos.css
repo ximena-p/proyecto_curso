@@ -1,0 +1,100 @@
+/*background*/
+
+div.cursos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 250px;
+}
+
+.container {
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.container .card {
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background-color: rgb(48, 48, 45);
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgb(31, 173, 26);
+  transition: 0.3s ease-in-out;
+}
+
+.container .card:hover {
+  height: 470px;
+  box-shadow: 0 5px 20px rgb(26, 156, 173);
+}
+
+.container .card .imgBx img {
+  /*max-width: 100px;*/
+  height: auto;
+  width: 100%;
+  border-radius: 45%;
+}
+
+.container .card .imgBx {
+  position: relative;
+  border-radius: 45%;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 20px;
+  z-index: 1;
+  box-shadow: 0 3px 10px rgb(107, 114, 107);
+}
+
+.container .card .content {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: rgb(100, 98, 98);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+
+/* boton cards */
+
+input.ir {
+  padding: 6px 90px;
+  background: none;
+  border: 2px solid cyan;
+  outline: none;
+  border-radius: 24px;
+}
+
+input.ri {
+  padding: 6px 95px;
+  background: none;
+  border: 2px solid cyan;
+  outline: none;
+  border-radius: 24px;
+  margin-top: 8px;
+}
+
+input.ir:hover {
+  background: cyan;
+}
+
+input.ri:hover {
+  background: cyan;
+}
